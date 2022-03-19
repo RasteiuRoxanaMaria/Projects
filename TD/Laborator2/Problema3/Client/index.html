@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat client</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div >
+        <div class="chat" id="chat"></div>
+        </div>
+    </center>
+    
+    <center>
+         <input type="text" id="message" placeholder="Write a message" />
+    </center>
+   
+    <center>
+        <button id="send">Send</button>
+    </center>
+    
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
